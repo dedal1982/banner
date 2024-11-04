@@ -80,3 +80,12 @@ body {
 .promo__wrapper h4 span {
   color: #fa5a06;
 }
+.product {
+  width: 100%;
+  height: 170px;
+  background: brown;
+}
+.product__wrapper {
+  display: flex;
+  align-items: center;
+}
