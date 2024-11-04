@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 .promo__wrapper h1 {
   font-family: "Montserrat", serif;
@@ -43,7 +44,39 @@ body {
 }
 .promo__wrapper h2 {
   font-family: "Montserrat", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   color: #fff;
+}
+.promo__wrapper h3,
+.promo__tel {
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+.promo__link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+.promo__link img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.promo__wrapper h4 {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #fff;
+}
+.promo__wrapper h4 span {
+  color: #fa5a06;
 }
